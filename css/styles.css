@@ -5,16 +5,20 @@ File Name: styles.css
 /*
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1 {
+body, header, nav, main, footer, img, h1, h2 {
 margin: 0;
 padding: 0;
 border: 0;
 
 }
-/*style rule for images */
+/*style rule for body and images */
 img {
   max-width: 100%;
   display: block;
+
+}
+body {
+  background-color: #f6eee4;
 
 }
 /* style rule for header content */
@@ -30,7 +34,7 @@ header h1 {
 }
 /* style rule for navigation area */
 nav {
-  background-color: #373684;
+  background-color: #2alf14;
 
 }
 nav ul {
@@ -41,22 +45,22 @@ nav ul {
 }
 nav li {
   display: inline-block;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: Geneva,Arial,sans-serif;
+  font-weight: bold;
 
 }
 nav li a {
   display: block;
-  color: #fff;
+  color: #f6eee4;
   text-align: center;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   text-decoration: none;
 
 }
 /* style rule for main content */
 main {
   padding: 2%;
-  background-color: #e5e9fc;
-  overflow: auto;
   font-family: Verdanaq, Arial, sans-serif;
 
 }
@@ -64,46 +68,40 @@ main p {
   font-size: 1.25em;
 
 }
-.action {
-  font-size: 1.75em;
-  color: #373684;
-  font-weight: bold;
+main h2 {
+  padding-top: 2%;
 
 }
-#piano, #guitar, #violin {
-  width: 29%;
-  float: left;
-  margin: 0 2%;
+main ul {
+  list-style-type: square;
 
 }
-#info {
-  clear: left;
-  background-color: #c0caf7;
-  padding: 1% 2%;
-
-}
-#contact {
-  text-align: center;
-
-}
-#contact a {
-  color: #4645a8;
+.link {
+  color: #4d3319;
   text-decoration: none;
   font-weight: bold;
+  font-style: italic;
 
 }
-.map {
-  border: 5px solid #373684;
+.action {
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: bold;
+
+}
+.id {
+  text-align: center;
 
 }
 /* style rules for footer content */
 footer {
   text-align: center;
-  font-size: 0.65em;
-  clear: left;
+  font-size: 0.85em;
+  background-color: #2a1f14;
+  padding: 1% 0%;
 
 }
 footer a {
-  color:#4645a8;
+  color:#f3e6d8;
   text-decoration: none;
 }
