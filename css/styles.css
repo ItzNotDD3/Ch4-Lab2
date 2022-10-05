@@ -17,6 +17,12 @@ img {
   display: block;
 
 }
+/* style rules for mobile viewpoint */
+
+/* style rules to show mobile class  and hide tab-desk class */
+.tab-desk {
+    display: none;
+}
 body {
   background-color: #f6eee4;
 
